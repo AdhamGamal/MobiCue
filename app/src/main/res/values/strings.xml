@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MobiCue</string>
+    <string name="title_activity_add_file">Add File</string>
+
+    <string name="main_activity_title">Main Screen Toolbar Background</string>
+    <string name="add_file_title">Add File Screen Toolbar Background</string>
+    <string name="delete_file">Delete File Button</string>
+    <string name="file_name">File Name Text Box</string>
+    <string name="script">Script Text Area</string>
+    <string name="save_file">Save File Floating Button</string>
+    <string name="google_ads">Google Ads Banner</string>
+    <string name="text_size_seekbar">Text Size Seekbar</string>
+    <string name="scroll_speed_seekbar">Text Size Seekbar</string>
+    <string name="load_file">Load File Floating Button</string>
+    <string name="create_file">Create File Floating Button</string>
+    <string name="enter">Click To Enter</string>
+
+
+    <string name="filename">filename</string>
+    <string name="File_Name">File Name</string>
+
+    <string name="content">content</string>
+    <string name="Script">Script</string>
+
+    <string name="textsize">textsize</string>
+    <string name="Text_Size">Text Size</string>
+
+    <string name="textstyle">textstyle</string>
+    <string name="Text_Style">Text Style</string>
+
+    <string name="bold">bold</string>
+    <string name="Bold">Bold</string>
+
+    <string name="italic">italic</string>
+    <string name="Italic">Italic</string>
+
+    <string name="bold_italic">bold_italic</string>
+    <string name="normal">normal</string>
+
+    <string name="scrollspeed">scrollspeed</string>
+    <string name="Scroll_Speed">Scroll Speed</string>
+
+    <string name="warning">You Missed File Name/File Content</string>
+    <string name="warning2">Error Reading Content/Saving Data</string>
+    <string name="no_data">No Data To Show!</string>
+    <string name="Confirm_Deletion">Confirm Deletion!</string>
+    <string name="delete">Delete</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

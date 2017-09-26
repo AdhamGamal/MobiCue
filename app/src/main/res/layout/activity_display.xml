@@ -1,0 +1,152 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:keepScreenOn="true"
+            android:textColor="@android:color/white" />
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/dim8"
+                android:paddingTop="@dimen/dim8">
+
+                <TextView
+                    android:layout_width="@dimen/dim0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:text="@string/Text_Size"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/small" />
+
+                <SeekBar
+                    android:id="@+id/size"
+                    android:layout_width="@dimen/dim0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:contentDescription="@string/text_size_seekbar"
+                    android:gravity="center_vertical"
+                    android:max="73"
+                    android:progress="1" />
+
+                <TextView
+                    android:id="@+id/size_display"
+                    android:layout_width="@dimen/dim0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="@dimen/small"
+                    tools:text="50" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/dim8"
+                android:paddingTop="@dimen/dim8">
+
+                <TextView
+                    android:layout_width="@dimen/dim0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="@string/Text_Style"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/small" />
+
+
+                <CheckBox
+                    android:id="@+id/italic"
+                    android:layout_width="@dimen/dim0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="@string/Italic"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textStyle="italic" />
+
+                <CheckBox
+                    android:id="@+id/bold"
+                    android:layout_width="@dimen/dim0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:text="@string/Bold"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/dim8"
+                android:paddingTop="@dimen/dim8">
+
+                <TextView
+                    android:layout_width="@dimen/dim0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="center_vertical"
+                    android:text="@string/Scroll_Speed"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="@dimen/small" />
+
+                <SeekBar
+                    android:id="@+id/speed"
+                    android:layout_width="@dimen/dim0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:gravity="center_vertical"
+                    android:contentDescription="@string/scroll_speed_seekbar"
+                    android:max="21"
+                    android:progress="1" />
+
+                <TextView
+                    android:id="@+id/speed_display"
+                    android:layout_width="@dimen/dim0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="@dimen/small"
+                    tools:text="20" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
