@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="speech"
+            type="com.amg.mobicue.room.SpeechItem" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/container"
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimens4dp"
+        app:cardCornerRadius="@dimen/dimens8dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/container_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/speech_type"
+                android:layout_width="80dp"
+                android:layout_height="@dimen/dimens0dp"
+                android:layout_gravity="center"
+                android:src="@{speech.SCreated ? @drawable/create : @drawable/upload}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/speech_name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/upload" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/speech_name"
+                android:layout_width="@dimen/dimens0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimens16dp"
+                android:layout_marginTop="@dimen/dimens8dp"
+                android:layout_marginEnd="@dimen/dimens8dp"
+                android:layout_marginBottom="@dimen/dimens8dp"
+                android:maxLines="1"
+                android:text="@{speech.SName}"
+                android:textSize="@dimen/dimens22sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/speech_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/speech_type"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Speech Title" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/speech_content"
+                android:layout_width="@dimen/dimens0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimens8dp"
+                android:layout_marginEnd="@dimen/dimens8dp"
+                android:layout_marginBottom="@dimen/dimens8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@{speech.SContent}"
+                android:textSize="@dimen/dimens16sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/speech_type"
+                app:layout_constraintTop_toBottomOf="@id/speech_name"
+                tools:text="Speech content may nr too long to be displayed in a single line" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>

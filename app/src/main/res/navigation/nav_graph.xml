@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/speechesListFragment">
+
+    <fragment
+        android:id="@+id/speechesListFragment"
+        android:name="com.amg.mobicue.ui.list.SpeechesListFragment"
+        android:label="speeches_list_fragment"
+        tools:layout="@layout/speeches_list_fragment">
+        <action
+            android:id="@+id/toAddFragment"
+            app:destination="@id/addSpeechFragment" />
+        <action
+            android:id="@+id/toDisplayFragment"
+            app:destination="@id/displaySpeechFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addSpeechFragment"
+        android:name="com.amg.mobicue.ui.add.AddSpeechFragment"
+        android:label="add_speech_fragment"
+        tools:layout="@layout/add_speech_fragment">
+        <argument
+            android:name="speech_id"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/toListFragment"
+            app:destination="@id/speechesListFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/addSpeechFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/toDisplayFragment"
+            app:destination="@id/displaySpeechFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/addSpeechFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/displaySpeechFragment"
+        android:name="com.amg.mobicue.ui.display.DisplaySpeechFragment"
+        android:label="display_speech_fragment"
+        tools:layout="@layout/display_speech_fragment">
+        <argument
+            android:name="speech_id"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/toListFragment"
+            app:destination="@id/speechesListFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/displaySpeechFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/toAddFragment"
+            app:destination="@id/addSpeechFragment" />
+    </fragment>
+</navigation>

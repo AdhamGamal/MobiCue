@@ -1,14 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <dimen name="expandedTitleMarginEnd">64dp</dimen>
-    <dimen name="expandedTitleMarginStart">48dp</dimen>
-
-    <dimen name="dim16">16dp</dimen>
-    <dimen name="dim8">8dp</dimen>
-    <dimen name="dim4">4dp</dimen>
-    <dimen name="dim0">0dp</dimen>
-
-    <dimen name="small">18sp</dimen>
-    <dimen name="large">26sp</dimen>
-
+    <dimen name="dimens8dp">8dp</dimen>
+    <dimen name="dimens0dp">0dp</dimen>
+    <dimen name="dimens16dp">16dp</dimen>
+    <dimen name="dimens22sp">22sp</dimen>
+    <dimen name="dimens16sp">16sp</dimen>
+    <dimen name="dimens4dp">4dp</dimen>
+    <dimen name="dimens18sp">18sp</dimen>
+    <dimen name="text_size">1sp</dimen>
 </resources>

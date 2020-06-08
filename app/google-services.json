@@ -1,50 +1,48 @@
 {
   "project_info": {
-    "project_number": "1088732156454",
-    "project_id": "mobicue-174117"
+    "project_number": "166691678575",
+    "firebase_url": "https://mobicue-1fae7.firebaseio.com",
+    "project_id": "mobicue-1fae7",
+    "storage_bucket": "mobicue-1fae7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1088732156454:android:c1af20ea1b68fe99",
+        "mobilesdk_app_id": "1:166691678575:android:6f6ead27ed70d6ec36209a",
         "android_client_info": {
           "package_name": "com.amg.mobicue"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1088732156454-6caj3tta4ba7hqlo497bjjdh5tg9ru2j.apps.googleusercontent.com",
+          "client_id": "166691678575-okltufjapcvj7i5qdpsncsotftume8ti.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.amg.mobicue",
-            "certificate_hash": "d93f91a904d2b06a4325d3b20902f35b4986bd3f"
+            "certificate_hash": "79270478cedfb2f85383949f9db0b87407e6a4cf"
           }
         },
         {
-          "client_id": "1088732156454-bsvpd753ugqs5qm3jcp4igkmi3vrvef1.apps.googleusercontent.com",
+          "client_id": "166691678575-aaur0nkb0jpim2bemfo5vagpurjkr06c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyADSyshdPO2n_pTBCMzCFzZvLdZZhdGBGE"
+          "current_key": "AIzaSyB5-ur5DCQ26k3_gF7AqRVfs3mpBgEa3b0"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 2,
-          "analytics_property": {
-            "tracking_id": "UA-102835778-1"
-          }
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 1
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166691678575-aaur0nkb0jpim2bemfo5vagpurjkr06c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
-      }
+      },
+      "admob_app_id": "ca-app-pub-9723791900293435~2249269252"
     }
   ],
   "configuration_version": "1"

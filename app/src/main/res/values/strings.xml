@@ -1,51 +1,30 @@
 <resources>
     <string name="app_name">MobiCue</string>
-    <string name="title_activity_add_file">Add File</string>
-
-    <string name="main_activity_title">Main Screen Toolbar Background</string>
-    <string name="add_file_title">Add File Screen Toolbar Background</string>
-    <string name="delete_file">Delete File Button</string>
-    <string name="file_name">File Name Text Box</string>
-    <string name="script">Script Text Area</string>
-    <string name="save_file">Save File Floating Button</string>
-    <string name="google_ads">Google Ads Banner</string>
-    <string name="text_size_seekbar">Text Size Seekbar</string>
-    <string name="scroll_speed_seekbar">Text Size Seekbar</string>
-    <string name="load_file">Load File Floating Button</string>
-    <string name="create_file">Create File Floating Button</string>
-    <string name="enter">Click To Enter</string>
-
-
-    <string name="filename">filename</string>
-    <string name="File_Name">File Name</string>
-
-    <string name="content">content</string>
-    <string name="Script">Script</string>
-
-    <string name="textsize">textsize</string>
-    <string name="Text_Size">Text Size</string>
-
-    <string name="textstyle">textstyle</string>
-    <string name="Text_Style">Text Style</string>
-
-    <string name="bold">bold</string>
-    <string name="Bold">Bold</string>
-
-    <string name="italic">italic</string>
-    <string name="Italic">Italic</string>
-
-    <string name="bold_italic">bold_italic</string>
-    <string name="normal">normal</string>
-
-    <string name="scrollspeed">scrollspeed</string>
-    <string name="Scroll_Speed">Scroll Speed</string>
-
-    <string name="warning">You Missed File Name/File Content</string>
-    <string name="warning2">Error Reading Content/Saving Data</string>
-    <string name="no_data">No Data To Show!</string>
-    <string name="Confirm_Deletion">Confirm Deletion!</string>
+    <string name="empty">No Speeches Exist</string>
+    <string name="add_data">Add</string>
+    <string name="search">Search</string>
+    <string name="speech_title">Speech Title</string>
+    <string name="speech_content">Speech Content</string>
+    <string name="list_ad_unit_id">ca-app-pub-9723791900293435/9329682921</string>
+    <string name="add_ad_unit_id">ca-app-pub-9723791900293435/6336688073</string>
+    <string name="bold">Bold</string>
+    <string name="italic">Italic</string>
+    <string name="bold_italic">Bold Italic</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="article">SPFC hired Andjar Asmara a former journalist and stagewriter who had been active with The Teng Chuns Java Industrial Film before the Japanese occupation to direct Djaoeh Dimata6 he based the screenplay on his stageplay of the same name7 However as with his pre-war ventures the native Indonesian Andjar was more of an acting and dialogue coach the Dutch cinematographer AA Denninghoff Stelling held more creative power over the final product 5 Max Tera served as assistant cinematographer on this black-and-white film 8 The film starred Ratna Asmara wife of Andjar Ali Yugo Iskandar Sucarno and Djauhari Effendic 9 all of whom had previous theatrical experience Ratna and Ali together with Andjar had been members of the travelling troupe Dardanella in the early 1930s and entered the film industry together in 1940 with Kartinah 10  Iskandar and Djauhari meanwhile had been active in the theatre during the occupation; both made their feature film debuts with Djaoeh Dimata 11 Principal photography was conducted on sets constructed by artistic director Hajopan Bajo Angin in SFPC\s studio in Jakarta  The companys equipment was of good quality but conditions were detrimental to filming; a contemporary report notes that one take done inside the studio was ruined by the sound of a passing car 12  Filming which took two13  to three months14  was completed on 10 November 1948 15  Production costs were almost 130000 guldend  which was partially obtained from ethnic Chinese backers 16  The film included multiple songs including Gesang Martohartonos 1940 hit Bengawan Solo 17 A documentary detailing one day of the production called Er wordt een film gemaakt A film is being made exists in the Netherlands 18 19SPFC hired Andjar Asmara a former journalist and stagewriter who had been active with The Teng Chuns Java Industrial Film before the Japanese occupation to direct Djaoeh Dimata6 he based the screenplay on his stageplay of the same name7 However as with his pre-war ventures the native Indonesian Andjar was more of an acting and dialogue coach the Dutch cinematographer AA Denninghoff Stelling held more creative power over the final product 5 Max Tera served as assistant cinematographer on this black-and-white film 8 The film starred Ratna Asmara wife of Andjar Ali Yugo Iskandar Sucarno and Djauhari Effendic 9 all of whom had previous theatrical experience Ratna and Ali together with Andjar had been members of the travelling troupe Dardanella in the early 1930s and entered the film industry together in 1940 with Kartinah 10  Iskandar and Djauhari meanwhile had been active in the theatre during the occupation; both made their feature film debuts with Djaoeh Dimata 11 Principal photography was conducted on sets constructed by artistic director Hajopan Bajo Angin in SFPC\s studio in Jakarta  The companys equipment was of good quality but conditions were detrimental to filming; a contemporary report notes that one take done inside the studio was ruined by the sound of a passing car 12  Filming which took two13  to three months14  was completed on 10 November 1948 15  Production costs were almost 130000 guldend  which was partially obtained from ethnic Chinese backers 16  The film included multiple songs including Gesang Martohartonos 1940 hit Bengawan Solo 17 A documentary detailing one day of the production called Er wordt een film gemaakt A film is being made exists in the Netherlands 18 19 </string>
+    <string name="text_color">Text Color</string>
+    <string name="text_style">Text Style</string>
+    <string name="text_size">Text Size</string>
+    <string name="scroll_speed">Scroll Speed</string>
+    <string name="normal">Normal</string>
+    <string name="white">White</string>
+    <string name="black">Black</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="orange">Orange</string>
+    <string name="purple">Purple</string>
+    <string name="brown">Brown</string>
     <string name="delete">Delete</string>
-
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
-
 </resources>
